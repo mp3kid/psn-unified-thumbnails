@@ -3,8 +3,10 @@
   "name": "Unified PSN Thumbnails",
   "version": "1.0",
   "description": "Unifies the sizes of game thumbnails when viewing PSNProfiles",
-  "content-scripts": {
-    "matches": ["https://psnprofiles.com/*"],
-    "css": ["style/unified-thumbnails"]
-  }
+  "content_scripts": [
+    {
+      "matches": ["https://psnprofiles.com/*"],
+      "css": ["style/unified-thumbnails.css"]
+    }
+  ]
 }
