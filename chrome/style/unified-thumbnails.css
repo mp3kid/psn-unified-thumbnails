@@ -1,13 +1,19 @@
-img.game, picture.game, picture.game > img {
-	background: #292b2d;
-	width: 100px;
-	height: 56px!important;
+img.game,
+picture.game,
+picture.game > img {
+  background: #292b2d;
+  width: 100px;
+  height: 56px;
 }
-img.game.md, picture.game.md, picture.game.md > img {
-	width: 200px;
-	height: 112px!important;
+img.game.md,
+picture.game.md,
+picture.game.md > img {
+  width: 200px;
+  height: 112px;
 }
-img.game.xs, picture.game.xs, picture.game.xs > img {
-	width: 72px;
-	height: 40px!important;;
+img.game.xs,
+picture.game.xs,
+picture.game.xs > img {
+  width: 72px;
+  height: 40px;
 }
