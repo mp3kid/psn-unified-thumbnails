@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Unified PSN Thumbnails",
-  "version": "1.2",
+  "version": "1.2.1",
   "description": "Unifies the sizes of game thumbnails when viewing PSNProfiles",
   "content_scripts": [
     {
