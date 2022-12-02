@@ -17,3 +17,10 @@ picture.game.xs > img {
   width: 72px;
   height: 40px;
 }
+
+.tag.platform.ps5 {
+  color: #1b5c9e;
+  background: #ffffff !important;
+  outline: 1px solid #1b5c9e;
+  font-weight: bold;
+}
