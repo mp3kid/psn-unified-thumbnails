@@ -8,8 +8,5 @@
       "matches": ["https://psnprofiles.com/*"],
       "css": ["style/unified-thumbnails.css"]
     }
-  ],
-  "icons": {
-    "64": "favicon.ico"
-  }
+  ]
 }
