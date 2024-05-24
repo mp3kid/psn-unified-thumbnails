@@ -27,6 +27,6 @@ picture.game.xs > img {
 }
 .tag.platform.pc {
   background: #242733 !important;
-  color: #e8e8e8 !important; /* 01fa31 */
+  color: #e8e8e8 !important;
   box-shadow: 0 0 0 0px #242733 !important;
 }
