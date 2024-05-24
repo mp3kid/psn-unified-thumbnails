@@ -19,8 +19,9 @@ picture.game.xs > img {
 }
 
 .tag.platform.ps5 {
-  color: #1b5c9e;
+  color: #1b5c9e !important;
   background: #ffffff !important;
-  outline: 1px solid #1b5c9e;
+  /* outline: 1px solid #1b5c9e; */
+  box-shadow: 0 0 0 1px #1b5c9e inset !important; 
   font-weight: bold;
 }
