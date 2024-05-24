@@ -5,8 +5,20 @@
   "description": "Unifies the sizes of game thumbnails when viewing PSNProfiles",
   "content_scripts": [
     {
-      "matches": ["https://psnprofiles.com/*"],
-      "css": ["style/unified-thumbnails.css"]
+      "matches": [
+        "https://psnprofiles.com/*"
+      ],
+      "css": [
+        "style/unified-thumbnails.css"
+      ]
+    },
+    {
+      "matches": [
+        "https://psnprofiles.com/"
+      ],
+      "js": [
+        "script/unified-thumbnails.js"
+      ]
     }
   ]
 }
