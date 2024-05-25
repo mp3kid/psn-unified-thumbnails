@@ -10,11 +10,6 @@
       ],
       "css": [
         "style/unified-thumbnails.css"
-      ]
-    },
-    {
-      "matches": [
-        "https://psnprofiles.com/"
       ],
       "js": [
         "script/unified-thumbnails.js"
