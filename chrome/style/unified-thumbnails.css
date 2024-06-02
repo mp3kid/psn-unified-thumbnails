@@ -30,3 +30,16 @@ picture.game.xs > img {
   color: #e8e8e8 !important;
   box-shadow: 0 0 0 0px #242733 !important;
 }
+.tag.platform.psvr {
+  background: #853fff !important;
+  /* color: #ffffff !important; */
+  /* box-shadow: 0 0 0 0px #1b5c9e !important; */
+  /* filter: drop-shadow(2px 2px 2px rgb(39, 39, 39)) */
+  /* box-shadow: 0px 0px 3px 1px #853fff !important; */
+}
+.tag.platform.ps4 {
+  /* background: #853fff !important; */
+  background: #401b9e !important;
+  color: #ffffff !important;
+  box-shadow: 0 0 0 0px #1b5c9e !important;
+}
