@@ -39,7 +39,12 @@ picture.game.xs > img {
 }
 .tag.platform.ps4 {
   /* background: #853fff !important; */
-  background: #401b9e !important;
+  background: #003c85 !important;
   color: #ffffff !important;
   box-shadow: 0 0 0 0px #1b5c9e !important;
+}
+.tag.platform.psvita {
+  background: #58a0e9 !important;
+  color: #ffffff !important;
+
 }
