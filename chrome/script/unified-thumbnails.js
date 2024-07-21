@@ -77,6 +77,8 @@ for (let i = 0; i < rankElements.length; i++) {
 
   const smallInfoChildren = smallInfoElement.getElementsByTagName("b");
 
+  if (smallInfoChildren.length < 2) continue;
+
   const numTrophies = Number.parseInt(smallInfoChildren[0].innerText);
 
   const totalTrophies = Number.parseInt(smallInfoChildren[1].innerText);
