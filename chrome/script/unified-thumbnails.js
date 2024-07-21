@@ -57,7 +57,7 @@ function getRankByTrophyNumbers(numTrophies, totalTrophies) {
 for (let i = 0; i < rankElements.length; i++) {
   const rankElement = rankElements[i];
 
-  console.log("rank element", rankElement);
+  // console.log("rank element", rankElement);
 
   // if (rankElement.tagName !== "span") continue;
 
@@ -83,7 +83,7 @@ for (let i = 0; i < rankElements.length; i++) {
 
   const newRank = getRankByTrophyNumbers(numTrophies, totalTrophies);
 
-  console.log("new rank", newRank);
+  // console.log("new rank", newRank);
 
   if (newRank === undefined) continue;
 
