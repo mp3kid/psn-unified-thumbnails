@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Unified PSN Thumbnails",
-  "version": "1.2.1",
+  "version": "1.3.1",
   "description": "Unifies the sizes of game thumbnails when viewing PSNProfiles",
   "content_scripts": [
     {
@@ -9,12 +9,13 @@
         "https://psnprofiles.com/*"
       ],
       "css": [
-        "style/unified-thumbnails.css"
+        "style/style.css"
       ],
       "js": [
-        "script/unified-thumbnails.js",
+        "script/set-alternate-trophy-ranks.js",
         "script/remove-empty-trophy-sets.js",
-        "script/add-impossible-rarities.js"
+        "script/add-impossible-rarities.js",
+        "script/main-table-updater.js"
       ]
     }
   ]
