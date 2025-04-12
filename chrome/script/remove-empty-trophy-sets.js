@@ -12,9 +12,27 @@ function removeEmptyTrophySets() {
     for (let j = 0; j < firstChild.children.length; j++) {
       const trophyCountElement = firstChild.children[j];
 
-      if (j > 0 && trophyCountElement?.textContent === "0") {
+      if (trophyCountElement?.textContent === "0") {
         trophyCountElement.classList.add("display-none");
-        firstChild.children[j - 1].classList.add("display-none");
+
+        if (
+          trophyCountElement.classList.contains("icon-sprite") === false &&
+          j > 0 &&
+          firstChild.children[j - 1].classList.contains("icon-sprite")
+        ) {
+          firstChild.children[j - 1].classList.add("display-none");
+        }
+      } else if (
+        (trophyCountElement?.textContent === "1" &&
+          trophyCountElement.classList.contains("icon-sprite") &&
+          trophyCountElement.classList.contains("platinum")) ||
+        (trophyCountElement?.textContent === "1" &&
+          trophyCountElement.classList.contains("icon-sprite") === false &&
+          j > 0 &&
+          firstChild.children[j - 1].classList.contains("icon-sprite") &&
+          firstChild.children[j - 1].classList.contains("platinum"))
+      ) {
+        trophyCountElement.textContent = "✓";
       }
     }
   }
