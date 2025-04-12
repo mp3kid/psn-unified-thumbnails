@@ -22,7 +22,7 @@ picture.game.xs > img {
   color: #1b5c9e !important;
   background: #ffffff !important;
   /* outline: 1px solid #1b5c9e; */
-  box-shadow: 0 0 0 1px #1b5c9e inset !important; 
+  box-shadow: 0 0 0 1px #1b5c9e inset !important;
   font-weight: bold;
 }
 .tag.platform.pc {
@@ -46,5 +46,10 @@ picture.game.xs > img {
 .tag.platform.psvita {
   background: #58a0e9 !important;
   color: #ffffff !important;
+}
 
+/* utility classes */
+
+.display-none {
+  display: none !important;
 }

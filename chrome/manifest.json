@@ -12,7 +12,8 @@
         "style/unified-thumbnails.css"
       ],
       "js": [
-        "script/unified-thumbnails.js"
+        "script/unified-thumbnails.js",
+        "script/remove-empty-trophy-sets.js"
       ]
     }
   ]
