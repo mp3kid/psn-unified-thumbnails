@@ -19,13 +19,7 @@ function getRankByTrophyNumbers(numTrophies, totalTrophies) {
   else return "F";
 }
 
-function getFullTableBody() {
-  return (rankElements =
-    document.getElementsByClassName("game-rank")[0]?.parentElement.parentElement
-      .parentElement.parentElement);
-}
-
-function setAllRanks() {
+function setAlternateTrophyRanks() {
   console.log("setting ranks......");
   const MODIFIED_RANK_CLASS = "modified-rank";
   const rankElements = document.getElementsByClassName("game-rank");
@@ -60,16 +54,4 @@ function setAllRanks() {
   }
 }
 
-setAllRanks();
-
-const mutationObserver = new MutationObserver(setAllRanks);
-
-const table = getFullTableBody();
-
-if (table) {
-  mutationObserver.observe(table, {
-    attributes: true,
-    characterData: true,
-    childList: true,
-  });
-}
+setAlternateTrophyRanks();
