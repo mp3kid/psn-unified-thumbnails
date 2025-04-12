@@ -30,6 +30,7 @@ function addImpossibleRarities() {
       const rarityTextElement = parentElement.children[2].children[0];
       rarityTextElement.textContent = "Impossible";
       rarityTextElement.classList.add("rarity-impossible");
+      parentElement.children[0].classList.add("rarity-impossible");
     }
   }
 }

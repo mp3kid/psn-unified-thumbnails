@@ -53,7 +53,8 @@ picture.game.xs > img {
 /* custom classes */
 
 .rarity-impossible {
-  color: #cc0000;
+  color: #cc0000 !important;
+  font-weight: bold !important;
 }
 
 .display-none {
