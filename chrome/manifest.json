@@ -13,7 +13,8 @@
       ],
       "js": [
         "script/unified-thumbnails.js",
-        "script/remove-empty-trophy-sets.js"
+        "script/remove-empty-trophy-sets.js",
+        "script/add-impossible-rarities.js"
       ]
     }
   ]

@@ -1,3 +1,5 @@
+/* modifying existing PSNP css */
+
 img.game,
 picture.game,
 picture.game > img {
@@ -48,7 +50,11 @@ picture.game.xs > img {
   color: #ffffff !important;
 }
 
-/* utility classes */
+/* custom classes */
+
+.rarity-impossible {
+  color: #cc0000;
+}
 
 .display-none {
   display: none !important;
