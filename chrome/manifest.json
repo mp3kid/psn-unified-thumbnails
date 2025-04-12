@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Unified PSN Thumbnails",
   "version": "1.3.1",
-  "description": "Provides a series of cosmetic changes to pages on the website \"psnprofiles.com\". This includes making game thumbnails a consistent size, changing the way trophy \"Ranks\" are calculated, changing the described rarity of trophies listed as 0.00% as Impossible, and removing 0 trophy counts from player's profiles.",
+  "description": "Provides a series of cosmetic changes to pages on the website \"psnprofiles.com\".",
   "content_scripts": [
     {
       "matches": [
