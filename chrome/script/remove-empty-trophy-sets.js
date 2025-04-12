@@ -38,10 +38,10 @@ function removeEmptyTrophySets() {
   }
 }
 
-// new MutationObserver(removeEmptyTrophySets).observe(document, {
-//   attributes: true,
-//   characterData: true,
-//   childList: true,
-// });
+new MutationObserver(removeEmptyTrophySets).observe(document, {
+  attributes: true,
+  characterData: true,
+  childList: true,
+});
 
 removeEmptyTrophySets();
