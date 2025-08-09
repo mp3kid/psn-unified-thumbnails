@@ -18,5 +18,10 @@
         "script/main-table-updater.js"
       ]
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "unifiedpsnprofilesthumbnails@example.com"
+    }
+  }
 }
